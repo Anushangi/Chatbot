@@ -1,0 +1,269 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "hii",
+        "hiii"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Welcome.",
+        "Hello! What can I do for you?"
+      ]
+    },
+    {
+  "tag": "admission",
+  "patterns": [
+    "admission",
+    "admission process",
+    "how to apply",
+    "how to join",
+    "join college",
+    "college admission",
+    "eligibility",
+    "admission information"
+  ],
+  "responses": [
+    "Admission Details:\n\n• Students can apply through the Admission Office.\n• Bring your mark sheets, Transfer Certificate (TC), Community Certificate (if applicable), Aadhaar Card and passport-size photographs.\n• For eligibility, fee payment and admission dates, please contact the College Admission Office."
+  ]
+},
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "take care"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Have a nice day!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "thank you so much",
+        "tq"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "affirmation",
+      "patterns": [
+        "ok",
+        "okay",
+        "fine",
+        "alright",
+        "got it"
+      ],
+      "responses": [
+        "Great!",
+        "Glad to help.",
+        "Okay!"
+      ]
+    },
+
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how r u",
+        "are you fine",
+        "how are you doing"
+      ],
+      "responses": [
+        "I'm doing well. Thank you!",
+        "I'm fine. How can I help you?"
+      ]
+    },
+
+    {
+      "tag": "college_timing",
+      "patterns": [
+        "college timing",
+        "college time",
+        "working hours",
+        "when does college start"
+      ],
+      "responses": [
+        "College timing is 9:00 AM to 4:00 PM."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "where is the library",
+        "library location",
+        "about library",
+        "college library"
+      ],
+      "responses": [
+        "The college library is located below the First Year Block. It contains subject-related books, journals, story books, magazines and other reference materials."
+      ]
+    },
+
+    {
+      "tag": "library_timing",
+      "patterns": [
+        "library timing",
+        "library time",
+        "library working hours",
+        "when does library open"
+      ],
+      "responses": [
+        "The library is open from 8:30 AM to 5:00 PM."
+      ]
+    },
+
+
+    {
+      "tag": "hostel_fee",
+      "patterns": [
+        "hostel fee",
+        "hostel fees",
+        "hostel payment",
+        "hostel charges",
+        "how much is hostel fee"
+      ],
+      "responses": [
+        "Annual payment for hostel stay and electricity is ₹10,000.Monthly food expenses are approximately 3,000 to 4,000 depending on the menu."
+      ]
+    },
+
+    {
+      "tag": "exam time",
+      "patterns": [
+        "exam time",
+        "exam updates",
+        "semester exam",
+        "exam schedule"
+      ],
+      "responses": [
+        "📢 Exam Updates:\n\n🎓 1st Year - Soon\n🎓 2nd Year - Soon\n🎓 3rd Year - Soon\n🎓 Final Year - October\n\n📌 For more details, please contact the Examination Cell."
+      ]
+    },
+
+    {
+      "tag": "exam fees",
+      "patterns":[
+        "exam fees",
+        "exam fess structure",
+        "exam fee details",
+        "exam fee details",
+  "exam fee structure",
+  "exam payment",
+  "exam registration fee",
+  "semester exam fee",
+  "semester exam fees",
+  "examination fee",
+  "examination fees",
+  "how much is exam fee",
+  "how much is exam fees",
+  "semester fee",
+  "semester fees"
+      ],
+      "responses":[
+        "💳 Examination Fee Details:\n\n🎓 1st Year - ₹1,500\n🎓 2nd Year - ₹1,700\n🎓 3rd Year - ₹1,900\n🎓 Final Year - ₹2,100\n\n📌 The examination fee must be paid before the last date announced by the Examination Cell. For the latest fee details, please contact the Examination Cell or visit the college office."
+]
+       
+    },
+    {
+      "tag": "college_fees",
+      "patterns": [
+        "college fees",
+        "fees structure",
+        "tuition fees",
+        "college fee ",
+        "what is the college fees"
+  ],
+      "responses": [
+        "💳 College Fee Structure:\n\n🎓 B.E / B.Tech - ₹50,000 per year\n🎓 M.E - ₹60,000 per year\n🎓 MBA - ₹45,000 per year\n\n📌 The above fee structure is for reference. For the latest fee details, scholarships, and payment dates, please contact the College Accounts Office."
+  ]
+},
+
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement",
+        "placements",
+        "placement cell",
+        "campus placement"
+      ],
+      "responses": [
+        "The Placement Cell conducts aptitude training, technical training, mock interviews, communication skill sessions and campus recruitment drives. Students are encouraged to participate in all placement activities."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "course",
+        "courses",
+        "departments",
+        "department",
+        "available courses",
+        "course",
+        "courses"
+      ],
+      "responses": [
+        "Departments Available:\n\nB.E - Computer Science and Engineering\nB.E - Mechanical Engineering\nB.E - Electronics and Communication Engineering\nB.Tech - Artificial Intelligence and Data Science\nB.Tech - Information Technology\nM.E - Computer Science and Engineering\nScience and Humanities\nMBA"
+      ]
+    },
+
+    {
+      "tag": "bus",
+      "patterns": [
+        "bus",
+        "bus timing",
+        "bus details",
+        "college bus",
+        "transport"
+      ],
+      "responses": [
+        "The complete college bus timing and route details will be shared as a PDF in your class WhatsApp group. Please check the group for the latest schedule."
+      ]
+    },
+
+    {
+      "tag": "canteen",
+      "patterns": [
+        "canteen",
+        "canteen menu",
+        "food",
+        "snacks",
+        "canteen details"
+      ],
+      "responses": [
+        "🍽️ College Canteen Menu:\n\n🥟 Samosa - ₹10\n🥐 Veg Puffs - ₹15\n🥐 Egg Puffs - ₹20\n🥐 Chicken Puffs - ₹25\n🌽 Chips & Corn - ₹10\n🍚 Fried Rice - ₹60\n🍗 Chicken Biryani - ₹60\n🫓 Parotta - ₹40\n☕ Tea / Coffee - ₹10\n\n📌 Please collect a token during the interval before purchasing food."
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry,I don't have information about that.ask another question."
+      ]
+    }
+  ]
+}
